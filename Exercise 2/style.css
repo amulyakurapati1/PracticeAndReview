@@ -1,0 +1,124 @@
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+
+
+header {
+    background-color: #42143f;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+header h2 {
+    font-size: 23px;
+    margin: 14px 0;
+}
+
+
+
+.cover {
+    width: 100%;
+    height: 495px;
+    
+}
+
+
+.places {
+    width: 87%;
+    max-width: 1100px;
+    margin: 45px auto;
+    font-size: 0;
+}
+
+.card {
+    display: inline-block;
+    width: 30%;
+    margin: 1.5%;
+    vertical-align: top;
+    font-size: 14px;
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+}
+
+.card h3 {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 22px;
+    height: 44px;
+    margin: 10px 0 3px;
+}
+
+.card h5 {
+    font-size: 10px;
+    font-weight: 700;
+    color: black;
+    margin: 0 0 12px;
+}
+
+.card p {
+    font-size: 10px;
+    word-spacing: 2px;
+    line-height: 15px;
+    font-weight: 400;
+    margin: 0 0 10px;
+    min-height: 96px;
+}
+
+.card button {
+    background-color: #80145c;
+    color: white;
+    border: none;
+    padding: 7px 13px;
+    font-size: 10px;
+}
+
+
+
+.description {
+    width: 75%;
+    max-width: 900px;
+    margin: 55px auto 45px;
+}
+
+.description h1 {
+    color: #94116b;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.description p {
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+
+
+footer {
+    background-color: #80145c;
+    color: white;
+    padding: 15px 6.5%;
+}
+
+footer h4 {
+    font-size: 12px;
+    margin: 0 0 3px;
+}
+
+footer p {
+    font-size: 10px;
+    margin: 0;
+}
